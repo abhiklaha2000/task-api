@@ -12,7 +12,7 @@ Method: 'POST'
 Request Body Example: {
     "title": "My third task",
     "description":"Hii Something 3",
-    "due_date":"2024-04-21" // In format YYYY-MM-DD
+    "status":"New" // Can be either of the 3 - New, Pending or Completed. If not given the default is New.
 }
 
 2. Get all tasks
@@ -28,7 +28,7 @@ Endpoint: '/update-task/:id' // The id in url refers to the task id
 Method: 'PATCH'
 Request Body Example: {
     "title": "I am a rapper",
-    "due_date": "2024-04-22" // In format YYYY-MM-DD
+    "status":"New" // Can be either of the 3 - New, Pending or Completed.
 }
 
 5. Delete task by id
