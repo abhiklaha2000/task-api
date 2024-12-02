@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/Task").then(() => {
+mongoose.connect("mongodb+srv://abhiklaha2000:dumdum123@cluster0.mae0k64.mongodb.net/Task").then(() => {
     console.log('Connected to Mongodb!!!');
 }
 ).catch((err) =>{
